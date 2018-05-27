@@ -48,6 +48,9 @@
                                 <state key="normal" title="GET STARTED">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="fwf-vE-Rsv" kind="show" id="4Yj-qb-Cx2"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GO ALL IN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lm8-rU-nOM">
                                 <rect key="frame" x="57.666666666666657" y="169" width="260" height="68.666666666666686"/>
@@ -165,6 +168,23 @@
                                 <state key="normal" title="NEXT">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Cph-jc-McS" kind="show" id="MHm-b9-Zxg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V2H-2E-Jgb">
+                                <rect key="frame" x="10" y="54" width="44" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="44" id="XMr-m7-HLe"/>
+                                    <constraint firstAttribute="height" constant="33" id="k7t-MD-LoC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <state key="normal" backgroundImage="backButton">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="cjH-SV-IJv"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -180,7 +200,9 @@
                             <constraint firstItem="Lj3-dB-c9e" firstAttribute="leading" secondItem="5d4-GE-dRl" secondAttribute="leading" id="YTG-Fe-M3E"/>
                             <constraint firstItem="EUK-8t-d73" firstAttribute="trailing" secondItem="5d4-GE-dRl" secondAttribute="trailing" id="d73-Pl-2bN"/>
                             <constraint firstItem="Lj3-dB-c9e" firstAttribute="top" secondItem="WRf-hs-V6V" secondAttribute="bottom" constant="50" id="dhu-3i-lsI"/>
+                            <constraint firstItem="V2H-2E-Jgb" firstAttribute="leading" secondItem="5d4-GE-dRl" secondAttribute="leading" constant="10" id="dzF-Er-hMk"/>
                             <constraint firstItem="5d4-GE-dRl" firstAttribute="trailing" secondItem="Lj3-dB-c9e" secondAttribute="trailing" id="mwv-JZ-yTs"/>
+                            <constraint firstItem="V2H-2E-Jgb" firstAttribute="top" secondItem="5d4-GE-dRl" secondAttribute="top" constant="10" id="oTd-KH-LBd"/>
                             <constraint firstItem="WRf-hs-V6V" firstAttribute="leading" secondItem="5d4-GE-dRl" secondAttribute="leading" id="u7e-Gi-3nY"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="5d4-GE-dRl"/>
@@ -258,6 +280,20 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H8u-Jd-JGJ">
+                                <rect key="frame" x="10" y="54" width="44" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="gDl-XN-gIT"/>
+                                    <constraint firstAttribute="width" constant="44" id="uql-Jx-JZ0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <state key="normal" backgroundImage="backButton">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="fwf-vE-Rsv" kind="show" id="BZv-xV-sfe"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -268,10 +304,12 @@
                             <constraint firstItem="dKh-Uy-VEX" firstAttribute="leading" secondItem="4et-O9-KcR" secondAttribute="leading" id="Gc5-d1-q8j"/>
                             <constraint firstItem="ird-0d-CE1" firstAttribute="leading" secondItem="QbH-Ba-sDY" secondAttribute="leading" id="MBr-o3-7Xk"/>
                             <constraint firstItem="Ch6-c1-Fts" firstAttribute="trailing" secondItem="4et-O9-KcR" secondAttribute="trailing" id="PAR-ha-9Cx"/>
+                            <constraint firstItem="H8u-Jd-JGJ" firstAttribute="top" secondItem="4et-O9-KcR" secondAttribute="top" constant="10" id="RRQ-wV-r4j"/>
                             <constraint firstAttribute="bottomMargin" secondItem="Ch6-c1-Fts" secondAttribute="bottom" constant="20" id="eGq-Ku-gzY"/>
                             <constraint firstItem="Ch6-c1-Fts" firstAttribute="leading" secondItem="4et-O9-KcR" secondAttribute="leading" id="fWE-wW-sau"/>
                             <constraint firstItem="yz3-3h-lm5" firstAttribute="top" secondItem="4et-O9-KcR" secondAttribute="top" constant="20" id="h3U-qA-lX1"/>
                             <constraint firstItem="yz3-3h-lm5" firstAttribute="centerX" secondItem="QbH-Ba-sDY" secondAttribute="centerX" id="kDd-Yu-Zss"/>
+                            <constraint firstItem="H8u-Jd-JGJ" firstAttribute="leading" secondItem="4et-O9-KcR" secondAttribute="leading" constant="10" id="lAW-qq-DLJ"/>
                             <constraint firstAttribute="bottom" secondItem="ird-0d-CE1" secondAttribute="bottom" id="v2u-ML-oyd"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="4et-O9-KcR"/>
@@ -283,9 +321,13 @@
         </scene>
     </scenes>
     <resources>
+        <image name="backButton" width="29" height="24"/>
         <image name="beginnerBallerBG" width="414" height="736"/>
         <image name="desiredLeagueBG" width="414" height="736"/>
         <image name="swooshLogo" width="119" height="20"/>
         <image name="welcomeScreenBG" width="414" height="736"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="4Yj-qb-Cx2"/>
+    </inferredMetricsTieBreakers>
 </document>
