@@ -164,7 +164,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Cph-jc-McS" kind="show" id="MHm-b9-Zxg"/>
+                                    <action selector="OnNextTapped:" destination="fwf-vE-Rsv" eventType="touchUpInside" id="M41-JY-IxL"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V2H-2E-Jgb">
@@ -202,6 +202,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="5d4-GE-dRl"/>
                     </view>
+                    <connections>
+                        <segue destination="Cph-jc-McS" kind="show" identifier="SkillVCSegue" id="tbb-cz-hsw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Klh-Bt-h4M" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -313,7 +316,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jj9-iU-gwe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1475.3623188405797" y="128.80434782608697"/>
+            <point key="canvasLocation" x="1769" y="129"/>
         </scene>
     </scenes>
     <resources>
@@ -324,6 +327,7 @@
         <image name="welcomeScreenBG" width="414" height="736"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="4Yj-qb-Cx2"/>
+        <segue reference="tbb-cz-hsw"/>
+        <segue reference="BZv-xV-sfe"/>
     </inferredMetricsTieBreakers>
 </document>
